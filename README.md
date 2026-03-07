@@ -1,6 +1,15 @@
 # Realtime Profile Ingestion Pipeline
 
 An end-to-end real-time data engineering pipeline that fetches user profile data from an external API, streams it through Apache Kafka, processes it with Apache Spark Structured Streaming, and persists it into Apache Cassandra — all orchestrated by Apache Airflow and fully containerized with Docker.
+## Contents
+
+- [Architecture](#architecture)
+- [Data Ingestion & Orchestration](#data-ingestion--orchestration)
+- [Kafka Cluster](#kafka-cluster)
+- [Stream Processing](#stream-processing)
+- [Storage](#storage)
+- [Tech Stack](#tech-stack)
+- [Setup & Usage](#setup--usage)
 
 ## Architecture
 
