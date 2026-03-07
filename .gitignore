@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Airflow
+logs/
+*.log
+airflow.db
+airflow-webserver.pid
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+*.swp
+*.swo
+
+# Env and secrets
+.env
+.env.local
+*.pem
+
+# Checkpoints / temp (spark_stream.py)
+/tmp/
+checkpoint/

@@ -1,0 +1,4 @@
+# For running spark_stream.py locally (not used by Docker).
+# Install: pip install -r requirements-local.txt
+pyspark>=3.4
+cassandra-driver>=3.28
