@@ -13,7 +13,7 @@ An end-to-end real-time data engineering pipeline that fetches user profile data
 
 ## Architecture
 
-![Architecture Diagram](images/Architecture_Diagram.png)
+![Architecture Diagram](images/architecture.png)
 
 The pipeline is composed of four core stages: **Data Ingestion & Orchestration**, **Kafka Cluster**, **Stream Processing**, and **Storage**. Each stage is described in detail below.
 
